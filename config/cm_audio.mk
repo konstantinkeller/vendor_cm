@@ -20,7 +20,10 @@ PRODUCT_COPY_FILES += \
 	$(NOTIFICATION_PATH)/Naughty.ogg:system/media/audio/notifications/Naughty.ogg \
 	$(NOTIFICATION_PATH)/Pong.ogg:system/media/audio/notifications/Pong.ogg \
 	$(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/notifications/Rang.ogg \
-	$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg
+	$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg \
+        $(NOTIFICATION_PATH)/Centrifuge.ogg:system/media/audio/notifications/Centrifuge.ogg \
+        $(NOTIFICATION_PATH)/Cold_Fusion.ogg:system/media/audio/notifications/Cold_Fusion.ogg \
+        $(NOTIFICATION_PATH)/Reaction.ogg:system/media/audio/notifications/Reaction.ogg
 
 # Ringtones
 PRODUCT_COPY_FILES += \
