@@ -43,6 +43,9 @@ endef
 $(foreach size,$(bootanimation_sizes), $(call check_and_set_bootanimation,$(size)))
 
 PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/xbin/su:system/xbin/su
+
+PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
 endif
 
@@ -128,8 +131,7 @@ PRODUCT_PACKAGES += \
     Development \
     LatinIME \
     SpareParts \
-    Superuser \
-    su
+    SuperSU
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
