@@ -125,6 +125,10 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
+# Project Cold Fusion Packages
+PRODUCT_PACKAGES += \
+    NovaLauncher
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     Camera \
@@ -142,13 +146,10 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Trebuchet \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
     CMWallpapers \
-    Apollo \
-    CMUpdater \
     CMFileManager
 
 # Extra tools in CM
